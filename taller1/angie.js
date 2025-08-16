@@ -2,41 +2,53 @@
 
 // 1. Operadores de Asignación
 // Declara una variable llamada 'nombre' y asígnale tu nombre.
-
+let nombre = "Angie";
+console.log("Mi nombre es: "+nombre);
 
 // 2. Operadores Aritméticos
 // a) Crea una variable 'suma' y guarda la suma de 5 y 10.
 
+let suma = 5+10;
+console.log("El resultado de la suma entre 5 y 10 es: ", suma);
+
 
 // b) Crea una variable 'resta' y guarda la resta de 25 y 7.
-
+let resta = 25 - 7;
+console.log(resta);
 
 // c) Crea una variable 'multiplicacion' y guarda el resultado de 4 por 6.
-
+let multiplicacion = 4*6;
+console.log(multiplicacion);
 
 // d) Crea una variable 'division' y guarda el resultado de 20 entre 4.
-
+let division = 20/ 4;
+console.log(division);
 
 // e) Crea una variable 'residuo' y guarda el residuo de 17 dividido entre 5.
-
+let residuo= 17 % 5;
+console.log(residuo);
 
 // 3. Operadores de Comparación
 // Completa para que el resultado en la consola sea true. quita el comentario de la consola como en el primer ejemplo
-console.log(10 < 5);      // Mayor que
-// console.log(8 ... 8);       // Igual estricto
-// console.log(9 ... 10);      // Menor que
-// console.log(5 ... "5");     // Igual (no estricto)
+let operacion = 10 > 5;
+console.log("10 es mayor que 5 ? "+ operacion);      // Mayor que
+console.log(8 === 8);       // Igual estricto
+console.log(9 < 10);      // Menor que
+console.log(5 == "5");     // Igual (no estricto)
 
 // 4. Operadores Lógicos
 // Completa para que el resultado en la consola sea 'true' en el primer caso y 'false' en el segundo.
-// console.log((5 > 3)  (10 < 20)); // AND(Y)
-//console.log((10 > 20) ... (5 == 5)); // OR(O)
+console.log((5 > 3) && (10 < 20)); // AND(Y
+console.log((10 > 20)&& (5 == 5)); // OR(O)
 
 // 5. Operador de Concatenación
-// Crea una variable 'fraseCompleta' que una las siguientes dos palabras:
+// Crea una variable 'fraseCompleta' que una las siguientes tres palabras:
 let palabra1 = "Mi nombre es ";
-let nombre = "Angie"
-let palabra2 = " y seré una desarrolladora exitosa";
+let palabra2 = "Angie";
+let palabra3 = " y seré una desarrolladora exitosa";
+
+let fraseCompleta =palabra1+palabra2+palabra3;
+console.log(fraseCompleta);
 
 
 // 6. Práctica con Operaciones Específicas
@@ -69,4 +81,7 @@ let palabra2 = " y seré una desarrolladora exitosa";
 // e) Operación de Módulo
 // Crea una variable llamada 'resultadoModulo' y guarda el residuo de una división
 // que dé como resultado 1.
+
+let resultadoModulo = 11 % 5;
+console.log(resultadoModulo);
 // Usa console.log() para verificar el resultado.
